@@ -1,11 +1,11 @@
-package com.leetcode.topic1_50.topic151_200;
+package com.leetcode.topic151_200;
 
 import java.util.Arrays;
 
 /**
  * @author knight
  * @version v1.0.0
- * @Package : com.leetcode.topic1_50.topic151_200
+ * @Package : com.leetcode.topic151_200
  * @Description : 将数组向右移动k位  (核心移动元素，对应翻转！！！数据结构书上有的题)
  * @Create on : 2021/5/10 20:54
  **/
