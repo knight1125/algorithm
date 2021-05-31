@@ -43,9 +43,6 @@ public class InsertSort implements Sort {
 
     public static void main(String[] args) {
         Sort insertSort = new InsertSort();
-        Comparable[] comparables = insertSort.prpareData();
-        System.out.println("排序前：" + Arrays.toString(comparables));
-        insertSort.sort(comparables);
-        System.out.println("排序后：" + Arrays.toString(comparables));
+        insertSort.printResult();
     }
 }

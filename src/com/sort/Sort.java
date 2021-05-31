@@ -1,5 +1,6 @@
 package com.sort;
 
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -21,5 +22,13 @@ public interface Sort {
     }
 
     void sort(Comparable[] arr);
+
+
+    default void printResult() {
+        Integer[] arr = (Integer[]) this.prpareData();
+        System.out.println("排序前：" + Arrays.toString(arr));
+        this.sort(arr);
+        System.out.println("排序后：" + Arrays.toString(arr));
+    }
 
 }

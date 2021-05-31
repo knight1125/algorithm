@@ -51,9 +51,6 @@ public class BubbleSort implements Sort {
 
     public static void main(String[] args) {
         BubbleSort bubbleSort = new BubbleSort();
-        Integer[] arr = (Integer[]) bubbleSort.prpareData();
-        System.out.println("排序前：" + Arrays.toString(arr));
-        bubbleSort.sort(arr);
-        System.out.println("排序后：" + Arrays.toString(arr));
+        bubbleSort.printResult();
     }
 }

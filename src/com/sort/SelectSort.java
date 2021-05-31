@@ -39,9 +39,6 @@ public class SelectSort implements Sort {
 
     public static void main(String[] args) {
         SelectSort selectSort = new SelectSort();
-        Comparable[] comparables = selectSort.prpareData();
-        System.out.println("排序前：" + Arrays.toString(comparables));
-        selectSort.sort(comparables);
-        System.out.println("排序后：" + Arrays.toString(comparables));
+        selectSort.printResult();
     }
 }
